@@ -1,0 +1,17 @@
+.sidebar{
+    display: flex;
+    align-items: center;
+    background-color: #E7D8D4
+}
+.header{
+    background-color:#CDBDB9
+}
+.footer{
+    background-color:#CDBDB9;
+    margin-top: auto;
+}
+@media(max-width: 950px){
+    .sidebar{
+        display:none
+    }
+}
